@@ -19,7 +19,7 @@ export const PageBtn = styled.li`
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  background-color: ${({ active }: Props) => (active ? "blue" : null)};
+  background-color: ${({ active }: Props) => (active ? "#75d372" : null)};
   color: ${({ active }: Props) => (active ? "white" : null)};
 `;
 export const PagePrev = styled(PageBtn)`
